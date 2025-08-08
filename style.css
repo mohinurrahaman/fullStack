@@ -1,0 +1,84 @@
+form {
+
+    max-width: 1000;
+    border: 2px solid #bebdbd;
+    
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    height: 950;
+    background-color: #bebdbd;
+    color: rgb(36, 35, 35);
+    height: inherit;
+
+}
+
+div {
+    input[type="text"] {
+        /* Targets all text input fields */
+        width: 280px;
+        /* Sets the width to 300 pixels */
+        height: 30px;
+        /* Sets the height to 50 pixels */
+    }
+
+    input[type="password"] {
+        /* Targets all text input fields */
+        width: 280px;
+        /* Sets the width to 300 pixels */
+        height: 30px;
+        /* Sets the height to 50 pixels */
+    }
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #838282;
+    width: inherit;
+}
+
+h1 {
+    height: inherit;
+    text-align: center;
+    color: red;
+}
+
+h2{
+    width: max-content;
+    background-color: #a97979;
+    color: white;
+    text-align: center;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+button[type="submit"]:hover {
+    background-color: #4b4c4b;
+}
+#loginPage{
+    color: #141711;
+
+}
+@media (max-width: 1080) {
+    form{
+        width: 110%;
+        max-height: 100%;
+    }
+}
